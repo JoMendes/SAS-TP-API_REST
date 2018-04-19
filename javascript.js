@@ -64,8 +64,8 @@ const nouvelArticle = {
   title: "Je suis un nouvel article",
   lien: "http://localhost:8080/?index=3",
 };
-data.articles.push(nouvelArticle);
+data.index.push(paramsPost);
 
 // Supprimer un élément d'un tableau
 delete data.articles[1]; // Pas très propre car laisse un emplacement vide
-data.articles = data.articles.filter((article, index) => index !== parseInt("1")); // Propre mais plus compliqué à comprendre
+data.articles = data.articles.filter((article, index) => index !== parseInt(string)); // Propre mais plus compliqué à comprendre
